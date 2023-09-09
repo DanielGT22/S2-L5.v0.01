@@ -1,0 +1,123 @@
+/* Your styles here */
+/*v0.2*/
+html {
+  font-size: 16px;
+}
+header {
+}
+body {
+}
+.logo {
+  background-color: grey;
+}
+.logo img {
+  height: 3em;
+  padding: 1%;
+}
+ul {
+  background-color: rgb(125, 118, 118);
+  text-align: left;
+}
+li {
+  display: inline-block;
+  padding: 1%;
+  font-size: 16px;
+  font-weight: 400;
+}
+li a {
+  color: azure;
+}
+
+main {
+  background-color: aliceblue;
+}
+.giftCards {
+  margin: 2%;
+  background-color: orange;
+}
+.giftCards p {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+.gift {
+  background-image: url(../images/bg-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 96%;
+}
+
+.gift p {
+  font-size: 30px;
+  font-weight: 700;
+  color: aliceblue;
+  text-align: center;
+
+  padding-top: 5%;
+}
+
+.gift p + p {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.categories {
+  background-color: aliceblue;
+  margin: 2%;
+}
+
+.promoText {
+  display: inline;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 2%;
+}
+.promoHyper {
+  display: inline;
+}
+.image1 {
+  display: inline-block;
+  margin: 2%;
+}
+.image2 {
+  display: inline-block;
+  margin: 2%;
+}
+.image3 {
+  display: inline-block;
+  margin: 2%;
+}
+.image4 {
+  display: inline-block;
+  margin: 2%;
+}
+.image1 img {
+  width: 350px;
+  height: 450px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.image2 img {
+  width: 350px;
+  height: 450px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.image3 img {
+  width: 350px;
+  height: 450px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+.image4 img {
+  width: 350px;
+  height: 450px;
+  border-radius: 10%;
+  object-fit: cover;
+}
