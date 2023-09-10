@@ -74,13 +74,17 @@ main {
 .promoText {
   display: inline;
   text-align: left;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 900;
   margin: 2%;
 }
-.promoHyper {
-  display: inline;
+.promoText a {
+  color: navy;
+  padding-left: 1%;
+  font-size: 22px;
+  font-weight: 900;
 }
+
 .image1 {
   display: inline-block;
   margin: 2%;
@@ -120,4 +124,42 @@ main {
   height: 450px;
   border-radius: 10%;
   object-fit: cover;
+}
+
+.bannerPubb {
+  margin: 2%;
+}
+.banner img {
+  width: 100%;
+}
+.promoText4Banner {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 1%;
+}
+.promoText4Banner a {
+  margin-left: 1%;
+  font-size: 30px;
+  color: navy;
+  font-weight: 500;
+}
+footer {
+  background-color: brown;
+}
+.Back {
+  text-align: center;
+  padding: 1%;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.Back a {
+  color: aliceblue;
+}
+.flogo {
+  text-align: center;
+  padding: 5%;
+}
+.flogo img {
+  width: 15%;
 }
